@@ -7,9 +7,9 @@ Most properties should be supported.
 
 
 ```kotlin
-import net.endrealm.useSlimeWorldPaper
-// alternatively: import net.endrealm.useSlimeWorldPurpur
-// alternatively: import net.endrealm.useSlimeWorldPufferfish
+import com.infernalsuite.useSlimeWorldPaper
+// alternatively: import com.infernalsuite.useSlimeWorldPurpur
+// alternatively: import com.infernalsuite.useSlimeWorldPufferfish
 
 plugins {
     // Apply the plugin
