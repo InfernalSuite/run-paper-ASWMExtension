@@ -1,0 +1,8 @@
+[versions]
+jackson = "2.18.3"
+
+[libraries]
+jacksonModuleKotlin = { module = "com.fasterxml.jackson.module:jackson-module-kotlin", version.ref = "jackson" }
+
+[bundles]
+jackson = ["jacksonModuleKotlin"]
