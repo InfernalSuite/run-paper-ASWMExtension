@@ -2,7 +2,7 @@
 
 
 ## Usage
-You need to start with a valid **runPaper** setup as [described here](https://plugins.gradle.org/docs/publish-plugin#approval).
+You need to start with a valid **runPaper** setup as [described here](https://github.com/jpenilla/run-task/wiki/Basic-Usage).
 Most properties should be supported.
 
 
@@ -14,12 +14,12 @@ import com.infernalsuite.useSlimeWorldPaper
 plugins {
     // Apply the plugin
     id("xyz.jpenilla.run-paper") version "2.2.0"
-    id("com.infernalsuite.runPaper") version "1.0.0"
+    id("com.infernalsuite.run-paper") version "1.0.0"
 }
 
 tasks {
     runServer {
-        minecraftVersion("1.19.2")
+        minecraftVersion("1.21.4")
         useSlimeWorldPaper()
         // alternatively: useSlimeWorldPurpur()
         // alternatively: useSlimeWorldPufferfish()

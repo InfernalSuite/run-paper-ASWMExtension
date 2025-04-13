@@ -21,10 +21,10 @@ group = "com.infernalsuite"
 version = "1.0"
 gradlePlugin {
     website = "https://infernalsuite.com/"
-    vcsUrl = "https://github.com/InfernalSuite/runPaperASWMExtension"
+    vcsUrl = "https://github.com/InfernalSuite/run-paper-ASWMExtension"
     plugins {
-        create("com.infernalsuite.runPaper") {
-            id = "com.infernalsuite.runPaper"
+        create("com.infernalsuite.run-paper") {
+            id = "com.infernalsuite.run-paper"
             displayName = "RunPaper Plugin Extension to support Advanced Slime World Manager server jars"
             description = "RunPaper Plugin Extension to support Advanced Slime World Manager server jars"
             tags = listOf("minecraft", "paper", "extension")
